@@ -1,4 +1,5 @@
-## Session Objectives
+## Kubernetes Prometheus  
+### Session Objectives
 During the session, we will attend the following objectives on the provided kubernetes cluster:
 1. Cluster wide instrumentation using the **OneAgent Operator**.
 1. Walkthrough different components in the Kubernetes Cluster-view.
