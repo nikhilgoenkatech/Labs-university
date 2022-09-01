@@ -18,7 +18,7 @@ oid = "SIMPLE-MIB::simpleInteger.0"
 name = "router.load"
 ```
 
-![image](./images/telegraf-snmp-enabled.png)
+![image](../assets/images/telegraf-snmp-enabled.png)
 
 Please save the changes and restart telegraf service for the changes to take effect. To do so, run below command
 

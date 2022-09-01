@@ -9,14 +9,14 @@ To do so, we can define a custom event in Dynatrace so that it can start baselin
 1. Click on **Create custom event for alerting**
 1. Select Category as *telegraf* and select Metric as *telegraf.snmnp.router.load*
 1. Select Aggregation as *Average*
-![image](./images/Telegraf-custom-event.png)
+![image](../assets/images/Telegraf-custom-event.png)
 
 1. Select 'Monitoring strategy' as **Auto-adaptive baseline**
 1. Under *Alert Preview*, we should be able to see data for that metric.
-![image](./images/Telegraf-custom-event2.png)
+![image](../assets/images/Telegraf-custom-event2.png)
 
 1. We will provide "Router load is high" in the *Title* and select *severity* as "Custom alert".
-![image](./images/Event_description.png)
+![image](../assets/images/Event_description.png)
 
 Now, we will change the value for SIMPLE-MIB::simpleInteger and will set a new value for the metric so that it breaches the threshold and generates a problem in Dynatrace. Please go to your instance and run this command below:
 
@@ -25,6 +25,6 @@ $ snmpset -v 2c -c simple -M+. localhost:5555 SIMPLE-MIB::simpleInteger.0 i 300
 ```
 
 Within Dynatrace, navigate to **Problems** and we will be able to see a custom problem:
-![image](./images/SNMP-problem.png)
+![image](../assets/images/SNMP-problem.png)
 
 
