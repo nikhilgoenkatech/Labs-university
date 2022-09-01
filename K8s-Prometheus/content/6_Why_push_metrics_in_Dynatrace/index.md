@@ -8,7 +8,7 @@ Dynatrace uses real-time traffic to generate a baseline for the pivotal paramete
 
 In your Dynatrace tenant, navigate to "Synthetic" and click on "Create synthetic monitor". Further, click on "Create an HTTP monitor"
 
-![image](./images/create-http-monitor.png)
+![image](../../assets/images/create-http-monitor.png)
 
 Follow these steps to configure the monitor:
 1. Name this HTTP monitor: Prometheus-setup-1
@@ -18,12 +18,12 @@ Follow these steps to configure the monitor:
 1. Name: Sample-app
 1. Click on “Add HTTP request”
 
-![image](./images/create-http-monitor-2.png)
+![image](../../assets/images/create-http-monitor-2.png)
 
 
 HTTP monitors can be scheduled to run from Dynatrace's private synthetic location and scheduled to run in configurable time intervals. For this setup, configure the HTTP monitor to run every **1 minute** from any **two** available locations.
 
-![image](./images/create-http-monitor-3.png)
+![image](../../assets/images/create-http-monitor-3.png)
 
 
 * **Note**: Currently, Mumbai is the synthetic monitors location that is whitelisted for your AWS instance. So, select **Mumbai** as your synthetic location.

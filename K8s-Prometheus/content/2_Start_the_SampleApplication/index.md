@@ -23,7 +23,7 @@ Verify the service is up and running as expected using command below.
 ```
 $ kubectl describe service model-app -n model-app
 ```
-![image](./images/expose-model-app.png)
+![image](../../assets/images/expose-model-app.png)
 
 Note down the Nodeport and connect to the application on browser using **Instance-ip:NodePort**
 

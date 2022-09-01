@@ -12,5 +12,5 @@ $ python3.8 simulate-alert.py AWS-IP port-number
 
 Once the script is executed, it would fire multiple requests parallely on the application. This will trigger an alert similar to the below:
 
-![image](./images/alert1.png)
+![image](../../assets/images/alert1.png)
 

@@ -4,7 +4,7 @@ Identify the mongodb-exporter name by running the following command:
 ```
 $ kubectl get pods -n model-app
 ```
-![image](./images/identify_mongo_exporter.png)
+![image](../../assets/images/identify_mongo_exporter.png)
 
 Keep the exporter name handy in a notepad which you can refer to later. Further, annotate the mongodb-exporter or/and node-exporter so that oneagent running on the cluster push prometheus metrics to dynatrace tenant.
 
@@ -18,7 +18,7 @@ $ kubectl annotate pod mongodb-exporter metrics.dynatrace.com/secure=false --nam
 ```
 
 Once annotated, the metrics will now be pushed to dynatrace too. To view these metrics, navigate to **Metrics** screen within Dynatrace tenant.
-![image](./images/metrics_screen.png)
+![image](../../assets/images/metrics_screen.png)
 
 By default, all the metrics collected by the annotated exporter(s) will be pushed to Dynatrace. However, you can limit the metrics by annotating the pod with filter key as below:
 ```bash
@@ -52,7 +52,7 @@ metrics.dynatrace.com/filter: |
 }
 ```
 
-![image](./images/filter-metrics.png)
+![image](../../assets/images/filter-metrics.png)
 
 Once added, press ESC + :wq to quit the editor. The pod would now be annotated with the configured metrics and you will receive **only** these in Dynatrace,thereby, reducing your DDU consumption.
 

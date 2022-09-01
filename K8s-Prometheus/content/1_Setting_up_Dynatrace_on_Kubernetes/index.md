@@ -6,7 +6,7 @@ Use PuTTy (Windows), PowerShell (Windows) or Terminal (Mac), ssh into the instan
 **Password**:  `dynatrace`
 
 Alternatively, you can connect to the SSH terminal by clicking on the icon as below:
-![image-ssh-terminal](./images/ssh_terminal_access.png)
+![image-ssh-terminal](../../assets/images/ssh_terminal_access.png)
 
 Further become root user by executing the below command:
 ```
@@ -29,7 +29,7 @@ $ kubectl config set-cluster microk8s-cluster --insecure-skip-tls-verify=true --
 
 Negative
 :If you come across the following error
-![image](./images/kube.png)
+![image](../../assets/images/kube.png)
 
 Please execute the following command to resolve the error
 ```bash
@@ -48,10 +48,10 @@ $ kubectl config set-cluster microk8s-cluster --insecure-skip-tls-verify=true --
 ```
 
 2. Within your tenant, navigate to **Kubernetes**
-![Kubernetes-instrumentation-1](./images/Kubernetes-instrumentation-1.png)
+![Kubernetes-instrumentation-1](../../assets/images/Kubernetes-instrumentation-1.png)
 
 3. Select **Connect automatically via Dynatrace Operator**.
-![Kubernetes-instrumentation-2](./images/Kubernetes-instrumentation-2.png)
+![Kubernetes-instrumentation-2](../../assets/images/Kubernetes-instrumentation-2.png)
 
 4. Enter the following details.
 
@@ -60,7 +60,7 @@ $ kubectl config set-cluster microk8s-cluster --insecure-skip-tls-verify=true --
 5. **Dynatrace Operator token**: Create token to have it automatically generated for the instrumentation.
 
 6. Lastly, toggle **Skip SSL Certificate check** to yes.
-![Kubernetes-instrumentation-3](./images/Kubernetes-instrumentation-3.png)
+![Kubernetes-instrumentation-3](../../assets/images/Kubernetes-instrumentation-3.png)
 
 7. Under **Kubernetes/OpenShift**, select **Download dynakube.yaml**, create a file dynakube.yaml by running a command as follow:
 
@@ -73,7 +73,7 @@ $ vim dynakube.yaml
 Further, copy the contents of dynakube.yaml and paste it in dynakube.yaml of your terminal (by pressing `i` to enter Insert mode, followed by `CTRL + Shift + V`) and exit the dynakube.yaml by pressing `ESC` key followed by `:wqa`
 
 8. Lastly, copy the code block generated based on our inputs earlier and  run it in your terminal.
-![Kubernetes-instrumentation-4](./images/Kubernetes-instrumentation-4.png)
+![Kubernetes-instrumentation-4](../../assets/images/Kubernetes-instrumentation-4.png)
 
 > Note:
 Be sure to execute the commands in the same directory where you downloaded the YAML, or adapt the commands to link to the location of the YAML.
