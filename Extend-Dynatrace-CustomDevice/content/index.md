@@ -1,4 +1,6 @@
-## Session Objectives
+## Extend Dynatrace with CustomDevice  
+
+### Session Objectives
 During the session, we will be creating custom device via using Activegate extension for Python and will attend the following objectives,
 1. Installing **Activegate**.
 1. Installing **Plugin SDK**.
