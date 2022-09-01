@@ -1,4 +1,5 @@
-## Session Objectives
+## Kubernetes Integration  
+### Session Objectives
 During the session, we will attend the following objectives on the provided kubernetes cluster:
 1. Cluster wide instrumentation automatically using the **Dynatrace Operator** or app-only monitoring and runtime injection.
 1. Advantages and working of the different deployment strategies.
