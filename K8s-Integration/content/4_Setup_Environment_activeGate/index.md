@@ -6,10 +6,10 @@
 4. Copy Step 2 from Dynatrace and paste into your shell terminal.
 5. Copy Step 4 from Dynatrace and append "sudo" (installing as root) onto shell terminal.
 
-![image](./images/ActiveGate-install-1.png)
-![image](./images/ActiveGate-install-2.png)
+![image](../assets/images/ActiveGate-install-1.png)
+![image](../assets/images/ActiveGate-install-2.png)
 
 Once completed, you should see Activegate under Deployment Status.
 
-![image](./images/AG-deployment-status.png)
+![image](../assets/images/AG-deployment-status.png)
 
