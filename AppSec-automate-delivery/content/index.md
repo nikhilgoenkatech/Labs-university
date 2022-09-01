@@ -1,4 +1,4 @@
-## Automate-Delivery II
+## Introduction
 Duration: 1
 
 This lab is the third session of the AIOps Enablement Series. This track focuses on the Automate Delivery, which relates to how you could integate Dynatrace with orchestration tools to create **Progressive Delivery**.
@@ -14,6 +14,7 @@ Throughout these labs, we will be using the **deployment approach** / **strategi
 - Setup Docker Pipeline in Jenkins
 - Leveraging Auto tags Rules for pipelines in Dynatrace
 - Creating tags from Build Stages
+- Application vulnabilities detection
 
 Negative
 : As different teams might have their own proprietary test-beds/suits, so we will demo stimulating requests using curl commands too.
