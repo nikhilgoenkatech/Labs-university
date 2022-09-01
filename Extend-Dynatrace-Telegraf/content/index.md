@@ -1,5 +1,6 @@
-## Session Objectives
+## Extend Dynatrace with Telegraf  
 
+### Session Objectives  
 This lab focuses on ingesting metrics through Telegraf agent. For demo purpose, we used an SNMP agent simulator to simulate a SNMP metric to be captured by Telegraf agent and then ingesting that SNMP metric to Dynatrace.
 
 * Installing the OneAgent on the host
