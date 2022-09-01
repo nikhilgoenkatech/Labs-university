@@ -1,4 +1,6 @@
-## OneAgent installation
+## Extend Dynatrace using Extension  
+
+### OneAgent Installation  
 Duration: 00:20:00
 
 In this step, we will install the OneAgent.
