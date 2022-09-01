@@ -25,21 +25,21 @@ kubectl get secret $(kubectl get sa dynatrace-monitoring -o jsonpath='{.secrets[
 3. Provide a Name say "K8s-cluster", Kubernetes API URL (retrieved from "Get the Kubernetes API URL" step above), and the Bearer token (retrieved from "Get the Bearer   Token" step above) for the Kubernetes cluster.
 
 > Note: Make sure you have enabled the configurables as below:
-![image](../assets/images/K8s-cluster.png)
+![image](../../assets/images/K8s-cluster.png)
 
 Once successfully connected, click on Kubernetes on the left menu and explore the Kubernetes UI.
 
-![image](../assets/images/K8s-view.png)
-![image](../assets/images/K8s-view-detailed-sock-shop.png)
-![image](../assets/images/K8s-view-detailed-model-app.png)
+![image](../../assets/images/K8s-view.png)
+![image](../../assets/images/K8s-view-detailed-sock-shop.png)
+![image](../../assets/images/K8s-view-detailed-model-app.png)
 
 Also, there would be some preset dashboards already in your tenant to view your Kubernetes cluster details available at **Dashboards** on the left menu
 
-![image](../assets/images/K8s-preset-dashboard.png)
+![image](../../assets/images/K8s-preset-dashboard.png)
 
 Kubernetes Cluster overview dashboard is displayed as below. Similarly, we can view the other dashboards as well from the list of **Dashboards**
 
-![image](../assets/images/K8s-preset-dashboard-cluster-overview.png)
+![image](../../assets/images/K8s-preset-dashboard-cluster-overview.png)
 
 # Dynatrace process and service naming rules
 

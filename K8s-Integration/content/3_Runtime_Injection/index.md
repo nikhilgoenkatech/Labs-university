@@ -79,7 +79,7 @@ Now, register an user on the application at http://<IP-address>:30005/register o
 **E-Mail Address**: guestuser@mybank.com
 **Password**: GuestUser12@
 **Name**: 123456789
-![image](../assets/images/register-user-app.png)
+![image](../../assets/images/register-user-app.png)
 
 As you have completed registering yourself on the application, now login into the app from http://<my-IP>:30005/login or http://<my-IP>:30005/login with the credentials as below:
 

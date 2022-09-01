@@ -2,7 +2,7 @@
 
 ### SNMP Concepts:
 SNMP stands for **S**imple **N**etwork **M**anagement **P**rotocol and has been in use since 1988. It is used to configure/manage/monitor network components remotely and the SNMP Architecture looks like the below:
-![image](../assets/images/snmp-architecture.png)
+![image](../../assets/images/snmp-architecture.png)
 
 Let us jump into the runtime components of SNMP:
 1. **SNMP managed device and resources**:
@@ -23,7 +23,7 @@ The SNMP manager is a system that controls and monitors the activities of networ
 ```bash
 $ service telegraf status
 ```
-![image](../assets/images/running-telegraf.png)
+![image](../../assets/images/running-telegraf.png)
 
 3. **SNMP agent**:
 SNMP agents are the agents that respond to SNMP manager by sending the values of the requested devices to the SNMP manager. In our case, snmpd will act as agent and respond to SNMP manager which is running on the same instance. To view our SNMP agent that would respond to the SNMP manager (telegraf), run the below command:
@@ -32,7 +32,7 @@ SNMP agents are the agents that respond to SNMP manager by sending the values of
 $ service snmpd status
 ```
 
-![image](../assets/images/running-snmpd.png)
+![image](../../assets/images/running-snmpd.png)
 
 4. **OID (Object Identifiers)**:
 OID is a bunch of numbers separated by dots that are assigned by SNMP in order to determine an object uniquely on a device (similar to say "IP address").
@@ -54,7 +54,7 @@ Let us now use our pre-populated variable present in our MIBs file and retrieve 
 $ snmpwalk -v 2c -c simple -M+. localhost:5555 SIMPLE-MIB::simpleInteger.0
 ```
 
-![image](../assets/images/snmpwalk_0.png)
+![image](../../assets/images/snmpwalk_0.png)
 
 6.2 **Set Request—Sent (snmpset)**: These are the commands sent by SNMP manager to the agent to set a particular value for a variable.
 Now, let us set a new value for the variable we ran snmpwalk on so we can simulate a real scenario. To do so, please open a new shell and run below command to set a new value for SIMPLE-MIB::simpleInteger.0
@@ -63,9 +63,9 @@ Now, let us set a new value for the variable we ran snmpwalk on so we can simula
 $ snmpset -v 2c -c simple -M+. localhost:5555 SIMPLE-MIB::simpleInteger.0 i 20
 ```
 
-![image](../assets/images/simulator-set-value.png)
+![image](../../assets/images/simulator-set-value.png)
 
 If we can now run 'snmpwalk' to check SIMPLE-MIB::simpleInteger.0 value, we will see the new value reflected as below:
-![image](../assets/images/snmpwalk_20.png)
+![image](../../assets/images/snmpwalk_20.png)
 
 

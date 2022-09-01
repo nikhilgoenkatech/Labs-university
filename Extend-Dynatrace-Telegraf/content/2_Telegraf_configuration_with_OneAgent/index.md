@@ -25,8 +25,8 @@ If not, we will install OneAgent in our host (EC2 Instance), please follow the s
 1. (Optional) Once the download is complete, you can verify the signature by copying the command from the *"Verify signature"* text field, then pasting the command into your terminal window and executing it. Make sure your system is up to date, especially SSL and related certificate libraries.
 1. **Copy** the command from "Run the installer with root rights" text field.
 
-![image](../assets/images/OneAgent_OS.png)
-![image](../assets/images/Download_OneAgent.png)
+![image](../../assets/images/OneAgent_OS.png)
+![image](../../assets/images/Download_OneAgent.png)
 
 > Negative
 : If you have oneagent installed already, you can skip the above step.
@@ -35,7 +35,7 @@ If not, we will install OneAgent in our host (EC2 Instance), please follow the s
 Within your tenant, navigate to **Settings > Monitoring > Monitoring technologies > Dynatrace OneAgent StatsD, Pipe, HTTP Metric API** and toggle "Enable Extension Execution Controller on every host" and "Enable local Pipe/HTTP metric API on every host" so that oneagent can make API calls to push the telegraf metrics to the tenant.
 
 
-![image](../assets/images/Extension_Execution.png)
+![image](../../assets/images/Extension_Execution.png)
 
 
 ### Telegraf Configuration
@@ -51,7 +51,7 @@ $ sudo vim /etc/telegraf/telegraf.conf
 * Uncomment [[outputs.dynatrace]]
 * Uncomment prefix = "telegraf."
 
-![image](../assets/images/telegraf_configuration_with_oneagent.png)
+![image](../../assets/images/telegraf_configuration_with_oneagent.png)
 
 3. Please save the changes, please restart telegraf service for the changes to take effect. To do so, please run below command
 

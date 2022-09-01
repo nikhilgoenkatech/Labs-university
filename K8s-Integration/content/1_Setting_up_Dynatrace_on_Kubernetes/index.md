@@ -6,7 +6,7 @@ Use PuTTy (Windows), PowerShell (Windows) or Terminal (Mac), ssh into the instan
 **Password**:  `dynatrace`
 
 Alternatively, you can connect to the SSH terminal by clicking on the icon as below:
-![image-ssh-terminal](../assets/images/ssh_terminal_access.png)
+![image-ssh-terminal](../../assets/images/ssh_terminal_access.png)
 
 Further become root user by executing the below command:
 ```
@@ -29,7 +29,7 @@ $ kubectl config set-cluster microk8s-cluster --insecure-skip-tls-verify=true --
 
 Negative
 :If you come across the following error
-![image](../assets/images/kube.png)
+![image](../../assets/images/kube.png)
 
 Please execute the following command to resolve the error
 ```bash
