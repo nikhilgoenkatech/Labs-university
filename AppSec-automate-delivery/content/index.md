@@ -1,4 +1,4 @@
-## Introduction
+## Application Security  
 Duration: 1
 
 This lab is the third session of the AIOps Enablement Series. This track focuses on the Automate Delivery, which relates to how you could integate Dynatrace with orchestration tools to create **Progressive Delivery**.
