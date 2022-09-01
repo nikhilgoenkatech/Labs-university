@@ -37,7 +37,7 @@ Verify if the services are up and running as expected using commands below. <br>
 `kubectl describe service model-app -n model-app`
 `kubectl describe service model-app-ha -n model-app-ha`
 
-![image](./images/expose-model-app.png)
+![image](../../assets/images/expose-model-app.png)
 
 ### ⚠️ Troubleshooting steps
 

@@ -8,18 +8,18 @@ Grant viewer role to the service account that is associated to your application 
 
 Your Kubernetes labels will be automatically attached as Kubernetes tags to all monitored Kubernetes processes and services in your Dynatrace environment as below.
 
-![image](./images/K8s-Pod-Labels-Tags-Dynatrace-1.png)
-![image](./images/K8s-Pod-Labels-Tags-Dynatrace-2.png)
+![image](../../assets/images/K8s-Pod-Labels-Tags-Dynatrace-1.png)
+![image](../../assets/images/K8s-Pod-Labels-Tags-Dynatrace-2.png)
 
 These Kubernetes tags can be used in searches, alerting profiles and other places within Dynatrace like any other Dynatrace tags
 
-![image](./images/K8s-Tags_Search.png)
+![image](../../assets/images/K8s-Tags_Search.png)
 
 # Release monitoring
 
 Dynatrace detects versions of monitored processes based on multiple version detection strategies. For Kubernetes, labels from the deployed pods provide application and version metadata. Thus, Version, Kubernetes namespace and number of instance details show up in the real-time inventory section of the Release page which is available at **Releases** on the left menu.
 
-![image](./images/K8s-release-page.png)
+![image](../../assets/images/K8s-release-page.png)
 
 
 # Availability alert for running pods
@@ -36,6 +36,6 @@ In Dynatrace, we make use of custom events to check the availability of running 
 8. Give a name say **Running_Pod_Count** for the event in **Event Description** section
 9. Once we have configured all the fields, click **Create custom events for alerting**
 
-![image](./images/K8s-custom-events-1.png)
-![image](./images/K8s-custom-events-2.png)
+![image](../../assets/images/K8s-custom-events-1.png)
+![image](../../assets/images/K8s-custom-events-2.png)
 

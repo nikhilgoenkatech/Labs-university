@@ -7,6 +7,6 @@
 5. Click **Create rule** once we have configured all the fields
 
 > Note: Make sure you have defined the fields as below
-![image](./images/K8s-service-naming-rule.png)
+![image](../../assets/images/K8s-service-naming-rule.png)
 
 

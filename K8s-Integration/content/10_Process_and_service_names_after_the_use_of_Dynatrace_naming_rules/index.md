@@ -2,11 +2,11 @@
 
 Go to **Hosts -> < Your-Kubernetes-Host > -> < Your-application-process >**
 
-![image](./images/K8s-rule-process-names.png)
+![image](../../assets/images/K8s-rule-process-names.png)
 
 Select **Service running on the process that we chose in the previous step**
 
-![image](./images/K8s-rule-service-names.png)
+![image](../../assets/images/K8s-rule-service-names.png)
 
 
 # Kubernetes labels in Dynatrace
@@ -27,5 +27,5 @@ We can validate the pod labels using the command:
 
 **NOTE**: Replace the my-app-pod string with the actual pod name determined using earlier command.
 
-![image](./images/K8s-Pod-Labels.png)
+![image](../../assets/images/K8s-Pod-Labels.png)
 
