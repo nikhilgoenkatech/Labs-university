@@ -4,7 +4,7 @@ In this section, we will create a HTTP monitor. If we just want to check availab
 1. Click on "**Create synthetic monitor** on top right.
 1. Click on **Create an HTTP monitor**
 1. Click on **Add Http request**
-![image](./images/create-http-monitor-1.png)
+![image](../../../assets/images/create-http-monitor-1.png)
 
 Further, create the http monitor with the following configuration:
 1. Provide "HTTP-monitor" as HTTP monitor name.
@@ -13,10 +13,10 @@ Further, create the http monitor with the following configuration:
 1. "ECommerce-app" as Name.
 1. Select "GET" as HTTP Method.
 1. Click on "Add HTTP requst".
-![image](./images/create-http-monitor-2.png)
+![image](../../../assets/images/create-http-monitor-2.png)
 
 1. HTTP monitors can be scheduled to run from Dynatrace's private synthetic location to fire HTTP request at the scheduled time. So, configure the HTTP monitor to run every **1 minute** from any **two** available locations.
-![image](./images/create-http-monitor-3.png)
+![image](../../../assets/images/create-http-monitor-3.png)
 
 1. Review Summary and click on "Create HTTP monitor".
 

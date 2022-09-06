@@ -13,7 +13,7 @@ First, let us identify the CSS selector which we will configure as the session-p
 1. Within your application, add some items to the cart.
 1. Further, click on *Checkout* and fill the details of Shopping Address.
 1. On clicking "Pay for the Order", it will render the payment page. Select the payment button and identify the CSS selector similar to the user-tag earlier.
-![Sespro1](./images/Session-prop1.gif)
+![Sespro1](../../../assets/images/Session-prop1.gif)
 
 Now with the CSS selector identified, proceed to Dynatrace tenant and follow the steps below
 1. Select **Frontend** from the navigation menu and select "ECommerce application"
@@ -21,13 +21,13 @@ Now with the CSS selector identified, proceed to Dynatrace tenant and follow the
 1. Click on "Capturing" and select "Session and action properties"
 1. Select **Add property** and click on *Custom defined property*
 1. Select **CSS selector** from *Expression type*, paste the CSS selector details copied earlier , provide *Display name* as "Revenue Generated", key as "revenuegenerated" and enable "Store as session property", "Ignore 'Do Not Track'" and click on *Save property*.
-![Sespro2](./images/Sespro1.png)
+![Sespro2](../../../assets/images/Sespro1.png)
 
 After setting it up, perform user actions to generate user session to reflect session property configuration. Session property is populated only for completed session, so terminate the session by performing the steps as below:
-![Sespro3](./images/sessionpro2.gif)
+![Sespro3](../../../assets/images/sessionpro2.gif)
 💡 We can use *incognito mode* to generate a completed session.
 
 To review it, navigate to "User Sessions" and select the generated session. Under the session we can see our defined user session property as highlighted,
-![Sespro4](./images/Sespro2.png)
+![Sespro4](../../../assets/images/Sespro2.png)
 
 

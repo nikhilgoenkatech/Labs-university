@@ -3,7 +3,7 @@ Please complete the previous session (deploy ECommerce application)
 
 ### Accessing the Application UI
 Within your **web browser**, access the sample application with `AWS IP ADDRESS`
-![Application URL](./images/application-access.png)
+![Application URL](../../../assets/images/application-access.png)
 
 :bulb: If you are not able to access the application, restart the application as suggested in **Lab(1) >> Pre-requisite** section.
 

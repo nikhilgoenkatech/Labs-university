@@ -9,24 +9,24 @@ In this exercise, we will deploy the OneAgent to our Linux instance and let the 
 
 1. Select **Deploy Dynatrace** from the navigation menu.
 
-![Deploy Dynatrace](./images/DD.png)
+![Deploy Dynatrace](../../../assets/images/DD.png)
 
 1. Click the **Start installation** button and select **Linux**.
 
-![Install](./images/Start_install.png)
-![Linux Install](./images/Linux_install.png)
+![Install](../../../assets/images/Start_install.png)
+![Linux Install](../../../assets/images/Linux_install.png)
 
 1. Choose the installer type from the drop-down list (we'll use the default x86/64). Use the Linux shell script installer on any Linux system that's supported by Dynatrace, regardless of the packaging system your distribution depends on.
 
 1. Generate a Paas token by clicking on "Create token", or we can use our previously saved token if we have any.
 
 1. **Copy** the command provided in the "Download the installer using this command on the target host" text field. **Paste** the command into your terminal window and execute it.
-![Install1](./images/Install1.png)
+![Install1](../../../assets/images/Install1.png)
 
 Positive
 : Example:
 
-![example](./images/Example.png)
+![example](../../../assets/images/Example.png)
 
 ### Execute the installation script
 
@@ -34,7 +34,7 @@ Positive
 
 **Copy** the command from "Run the installer with root rights" text field.
 
-![Install2](./images/Install2.png)
+![Install2](../../../assets/images/Install2.png)
 
 Paste the command into your terminal window and execute it. You will need to make the script executable before you can run it.
 
@@ -42,6 +42,6 @@ Note that you will need root access. You can use sudo to run the installation sc
 
 Positive
 : Example:
-![example2](./images/example1.png)
+![example2](../../../assets/images/example1.png)
 
 <!-- ------------------------ -->

@@ -19,7 +19,7 @@ Now, gain root access by performing `sudo su`
 $ cd /home/ubuntu/e-commerce/src
 $ source myenv
 ```
-![step-1](./images/pre-step-1.png)
+![step-1](../../../assets/images/pre-step-1.png)
 
 * Run the following commands to deploy your application:
 ```
@@ -27,12 +27,12 @@ $ python3.6 /usr/local/bin/gunicorn --bind 0.0.0.0:3005 ecommerce.wsgi:applicati
 
 $ service nginx start
 ```
-![step-2](./images/pre-step-2.png)
-![step-3](./images/pre-step-3.png)
+![step-2](../../../assets/images/pre-step-2.png)
+![step-3](../../../assets/images/pre-step-3.png)
 
 
 ### Accessing the Application UI
 Within your **web browser**, access the sample application with `AWS IP ADDRESS`
-![Application URL](./images/application-access.png)
+![Application URL](../../../assets/images/application-access.png)
 
 <!-- ------------------------ -->

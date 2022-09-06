@@ -6,13 +6,13 @@ In this exercise, we will check the OneAgent injection into the application and 
 
 Dynatrace injects a Javascript into the application to monitor it and report user activities.  This script is loaded under HEAD tag of the application. So, navigate to the application UI and open the browser's DevTools to check the **Elements** and check the `<HEAD>` element locating the JavaScript. If we search the script for `ruxitagentjs` string, it will not be present as oneAgent is still not able to monitor our application.
 
-![Missing-JS-Tag](./images/Missing-JSTag.png)
+![Missing-JS-Tag](../../../assets/images/Missing-JSTag.png)
 
 This can also be validated by Dynatrace. In order to do so, navigate to **Host > ec2-instance > gunicorn** which is the Application Process.
 
 You will discover that Dynatrace automatically monitors the host metrics and processes, however, has not been able to pick the **services**
 
-![Process-Unmonitored](./images/Process-Unmonitored.png)
+![Process-Unmonitored](../../../assets/images/Process-Unmonitored.png)
 
 ### Restarting E-Commerce Application
 
@@ -33,10 +33,10 @@ $ python3.6 /usr/local/bin/gunicorn --bind 0.0.0.0:3005 ecommerce.wsgi:applicati
 
 Now, verify if the application has been restarted successfully by accessing `AWS-IP` in the browser
 
-![Application](./images/Application.png)
+![Application](../../../assets/images/Application.png)
 
 Post restart you will be able to verify that Dynatrace has now successfully identified the services within your tenant by navigating to **Host > ec2-instance > gunicorn**
-![Process-monitored](./images/Process-monitored.png)
+![Process-monitored](../../../assets/images/Process-monitored.png)
 
 
 ### Accessing the application
@@ -46,7 +46,7 @@ Within your browser, click **Sign-up** (available at the top right):
 1. **Password**: GuestUser12@
 1. **Confirm Password**: GuestUser12@
 
-![Register](./images/sign-user-app.png)
+![Register](../../../assets/images/sign-user-app.png)
 
 Once you have completed signing up on the application, you will be logged in on the application at http://AWS-IP or login with the credentials as below:
 **Username**: Your first name

@@ -11,7 +11,7 @@ One of the important goal for an e-commerce application would be to identify use
 1. Click on **Add condition**.
 1. Select "pageURL(default)" as Input, Operator as contains and input text `/checkout/`, click on *save*.
 This would mean all the user-URLs that contain checkout would be renamed to "Payment-gateway" instead of the actual request (as defined on your application).
-![User-action-renaming](./images/Useraction-renaming.png)
+![User-action-renaming](../../../assets/images/Useraction-renaming.png)
 
 Now, as we have renamed all the loading /checkout/ requests as "Payment-gateway", let us create a conversion goal for Payment-gateway.
 
@@ -21,7 +21,7 @@ To define the conversion goal, navigate to the application settings by clicking 
 1. followed by **Rule applies to:** to be `Load actions`
 1. Define the **Rule:** to be `Action name > contains > Payment-gateway`
 1. Click on the **Add goal** to save the defined conversion goal.
-![Conversion-Goal](./images/Goal.png)
+![Conversion-Goal](../../../assets/images/Goal.png)
 
 ### Measuring Conversion Goal
 1. Generate a user session to initiate a payment in the application.
@@ -29,5 +29,5 @@ To define the conversion goal, navigate to the application settings by clicking 
 1. Use the filter option to sort the user session which met the conversion goal defined by selecting **Conversion Goal**
 1. Selecting the **Goal**
 1. Selecting the specific user session and navigating to the user actions, the defined user action will be easy to identy goal by searching the [🏁] symbol.
-![Conversion-Goal](./images/Conversion-Goal.png)
+![Conversion-Goal](../../../assets/images/Conversion-Goal.png)
 
