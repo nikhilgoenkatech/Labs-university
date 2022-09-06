@@ -26,7 +26,7 @@ Dynatrace provides multiple avenues to define the user-tag with CSS selector bei
 
 1. Lastly, click on "Add user tag rule"  and then on "Save changes"
 <br>
-![usertag6](../../../assets/images/02-UserTag6.png
+![usertag6](../../../assets/images/02-UserTag6.png)
 
 
 Once you have applied the user-tag configuration, navigate to *User sessions* screen and you would notice Dynatrace is identifying your session with the correct Username (instead of the Annonymous user with rxVisitor ID)
@@ -56,7 +56,7 @@ In this step, we will see how to create SLO in Dynatrace.
 An SLO is a performance threshold measured for an Service Level Indicator (SLI) over a period of time. This is the bar against which the SLI is measured to determine if performance is meeting expectations. Using SLOs, you can review the current health status, error budgets, target and warning of your application and services.
 
 Typically, the SLO pyramid for an application would look like below:
-![service-level-objective](../../../asset../../../assets/images/SLO_Hierarchy_application.png)
+![service-level-objective](../../../assets/images/SLO_Hierarchy_application.png)
 
 To configure your SLO, navigate to **Frontend > Application-name > Edit > Add a SLO** and follow the steps as below:
 ![slo1](../../../assets/images/SLO_1.png)
