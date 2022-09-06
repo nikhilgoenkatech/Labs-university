@@ -14,7 +14,7 @@ Once connected, navigate to **canary_releases** directory by running the command
 $ cd /home/ubuntu/docker-compose-bankApp/canary-release/
 ```
 
-Now, let us stimulate canary environment for our sample-bank-app. To do so, we will set multiple environment variables.
+Now, let us stimulate canary environment for our sample-bank-app. To do so, we will set multiple environment variables.  
 1. Set an environment variable by running command `export DT_RELEASE_VERSION=4.0.1` - this would indicate Dynatrace that the build version is 4.0.1
 1. Further, set another environment variables by running `export BUILD_NO=10.0.0` - this variable would be passed to docker as "DT_RELEASE_VERSION" while building it so as to inform dynatrace that the docker running this application is on 10.0.0 version.
 ![Dockerfile-info](../../../assets/images/docker-buildno.png)
@@ -61,7 +61,7 @@ That is already implemented in our samplebank as seen in the image below:
 
 So, we will proceed with setting up the session-properties.
 
-1. To do so, within dynatrace tenant navigate to **Settings>Server-side service Monitoring>Request attributes** and setup the request attribute as below:
+1. To do so, within dynatrace tenant navigate to **Settings>Server-side service Monitoring>Request attributes** and setup the request attribute as below:  
 Request attribute name: Release-build-no  
 Request attribute source: HTTP response header  
 Specify where the attribute is captured and then stored:  Capture on server-side of a web request 
@@ -71,7 +71,7 @@ Parameter name:  releaseid
 
 ![Request-attribute](../../../assets/images/03-SetupRA2.png)
 
-1. Once the request attributes are set, let us leverage session properties to retrieve the build version on each useraction/property. To do so, follow the steps as below:
+1. Once the request attributes are set, let us leverage session properties to retrieve the build version on each useraction/property. To do so, follow the steps as below:  
 2.1 Select "Application" from the navigation menu and select "My web application"  
 2.2 Click on "..." and select "Edit"  
 2.3 Click on "Capturing" and select "Session and action properties"  
