@@ -6,12 +6,10 @@ Dynatrace provides multiple avenues to define the user-tag with CSS selector bei
 
 1. Within your application page, select the string starting with Welcome on top-left of your screen as seen in the screenshot.
 
-1. Further, using right click select option "Inspect".
-<br>
+1. Further, using right click select option "Inspect".  
 ![usertag1](../../../assets/images/User-tag-1.png)
 
-1. This would open Element tab in the developer tools, right-click on the element and select *Copy* option followed by *Copy selector*
-<br>
+1. This would open Element tab in the developer tools, right-click on the element and select *Copy* option followed by *Copy selector*.  
 ![usertag2](../../../assets/images/User-tag-2.png)
 
 1. Once you have identified the CSS selector , within your tenant navigate to application configuration page by following **Frontend > SampleBankApp application > Edit**
