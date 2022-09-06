@@ -8,11 +8,11 @@ Dynatrace provides multiple avenues to define the user-tag with CSS selector bei
 
 1. Further, using right click select option "Inspect".
 <br>
-![usertag1](../../../asset../../../assets/images/User-tag-1.png)
+![usertag1](../../../assets/images/User-tag-1.png)
 
 1. This would open Element tab in the developer tools, right-click on the element and select *Copy* option followed by *Copy selector*
 <br>
-![usertag2](../../../asset../../../assets/images/User-tag-2.png)
+![usertag2](../../../assets/images/User-tag-2.png)
 
 1. Once you have identified the CSS selector , within your tenant navigate to application configuration page by following **Frontend > SampleBankApp application > Edit**
 
@@ -26,12 +26,12 @@ Dynatrace provides multiple avenues to define the user-tag with CSS selector bei
 
 1. Lastly, click on "Add user tag rule"  and then on "Save changes"
 <br>
-![usertag6](../../../asset../../../assets/images/02-UserTag6.png
+![usertag6](../../../assets/images/02-UserTag6.png
 
 
 Once you have applied the user-tag configuration, navigate to *User sessions* screen and you would notice Dynatrace is identifying your session with the correct Username (instead of the Annonymous user with rxVisitor ID)
 
-![usertag4](../../../asset../../../assets/images/02-UserTag4.png)
+![usertag4](../../../assets/images/02-UserTag4.png)
 
 ### Key User Actions
 
@@ -48,7 +48,7 @@ In order to mark your request as key-request, follow the steps as below:
 1. Under Top 100 user actions, select a user action.
 1. On the top-right corner of the User action details page, select Mark as key user action. The selected user action will now be displayed under Key user actions on the User action analysis page.
 
-![KeyUserAction](../../../asset../../../assets/images/02-KeyUserAction.png)
+![KeyUserAction](../../../assets/images/02-KeyUserAction.png)
 
 ### Service Level Objectives
 In this step, we will see how to create SLO in Dynatrace.
@@ -59,9 +59,9 @@ Typically, the SLO pyramid for an application would look like below:
 ![service-level-objective](../../../asset../../../assets/images/SLO_Hierarchy_application.png)
 
 To configure your SLO, navigate to **Frontend > Application-name > Edit > Add a SLO** and follow the steps as below:
-![slo1](../../../asset../../../assets/images/SLO_1.png)
-![slo2](../../../asset../../../assets/images/SLO2.png)
-![slo3](../../../asset../../../assets/images/SLO3.png)
+![slo1](../../../assets/images/SLO_1.png)
+![slo2](../../../assets/images/SLO2.png)
+![slo3](../../../assets/images/SLO3.png)
 
 You can pin these SLOs on the dashboard, have alerts setup if the SLOs have breached. Also, these can be used to validate releases in your automation pipeline.
 
