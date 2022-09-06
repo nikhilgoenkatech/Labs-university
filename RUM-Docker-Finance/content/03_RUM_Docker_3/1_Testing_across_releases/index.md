@@ -66,9 +66,9 @@ So, we will proceed with setting up the session-properties.
 **Request attribute source**: HTTP response header
 **Specify where the attribute is captured and then stored**:  Capture on server-side of a web request
 **Parameter name**:  releaseid
-<br>
+
 ![Request-attribute](../../../assets/images/03-SetupRA11.png)
-<br>
+
 ![Request-attribute](../../../assets/images/03-SetupRA2.png)
 
 1. Once the request attributes are set, let us leverage session properties to retrieve the build version on each useraction/property. To do so, follow the steps as below:
@@ -78,7 +78,7 @@ So, we will proceed with setting up the session-properties.
 2.4 Select "Add property"
 2.5 Select **Server-side request attribute** from "Expression type" and select **Release-build-no** from the dropdown for Request-attribute name.
 2.6 Lastly, provide "Display name" as **build-no**, key as **buildno** and enable "Store as Session property" and click on "Save property"
-<br>
+
 ![Sess-prop](../../../assets/images/03-SessionPropertyBuildNo.png)
 
 The above will help Dynatrace identify where the user-sessions have originated from and thus, tagging them. This further can help you to identify if there are any potential issues with a specific build.
