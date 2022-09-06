@@ -62,22 +62,22 @@ That is already implemented in our samplebank as seen in the image below:
 So, we will proceed with setting up the session-properties.
 
 1. To do so, within dynatrace tenant navigate to **Settings>Server-side service Monitoring>Request attributes** and setup the request attribute as below:
-**Request attribute name**: Release-build-no
-**Request attribute source**: HTTP response header
-**Specify where the attribute is captured and then stored**:  Capture on server-side of a web request
-**Parameter name**:  releaseid
+Request attribute name: Release-build-no  
+Request attribute source: HTTP response header  
+Specify where the attribute is captured and then stored:  Capture on server-side of a web request 
+Parameter name:  releaseid
 
 ![Request-attribute](../../../assets/images/03-SetupRA11.png)
 
 ![Request-attribute](../../../assets/images/03-SetupRA2.png)
 
 1. Once the request attributes are set, let us leverage session properties to retrieve the build version on each useraction/property. To do so, follow the steps as below:
-2.1 Select "Application" from the navigation menu and select "My web application"
-2.2 Click on "..." and select "Edit"
-2.3 Click on "Capturing" and select "Session and action properties"
-2.4 Select "Add property"
-2.5 Select **Server-side request attribute** from "Expression type" and select **Release-build-no** from the dropdown for Request-attribute name.
-2.6 Lastly, provide "Display name" as **build-no**, key as **buildno** and enable "Store as Session property" and click on "Save property"
+2.1 Select "Application" from the navigation menu and select "My web application"  
+2.2 Click on "..." and select "Edit"  
+2.3 Click on "Capturing" and select "Session and action properties"  
+2.4 Select "Add property"  
+2.5 Select **Server-side request attribute** from "Expression type" and select **Release-build-no** from the dropdown for Request-attribute name.  
+2.6 Lastly, provide "Display name" as **build-no**, key as **buildno** and enable "Store as Session property" and click on "Save property"  
 
 ![Sess-prop](../../../assets/images/03-SessionPropertyBuildNo.png)
 
