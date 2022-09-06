@@ -22,15 +22,15 @@ Now with the CSS selector identified as `body > div.container-fluid > div > div 
 1. Select "Add property" and then "Custom defined property" tab
 1. Select **CSS selector** from "Expression type", paste the CSS selector details copied earlier , provide "Display name" as **balance**, key as **balance** and enable "Store as session property" and click on "Save property"
 
-![Sess-prop](../../../asset../../../assets/images/02-SessionProperty1.png)
+![Sess-prop](../../../assets/images/02-SessionProperty1.png)
 
 After setting it up, perform user actions to generate user session/session property. Session property is populated only for completed session, so terminate the session by performing the steps as below:
 
-![Sespro3](../../../asset../../../assets/images/Session-property-2.gif)
+![Sespro3](../../../assets/images/Session-property-2.gif)
 
 To review it, navigate to "User Sessions" and select the generated session. Under the session we can see our defined user session property as highlighted,
 
-![Sespro4](../../../asset../../../assets/images/02-SessionProperty2.png)
+![Sespro4](../../../assets/images/02-SessionProperty2.png)
 
 As the session was completed with **119980** final balance in the above example, session-property was determined to be **119980**.
 

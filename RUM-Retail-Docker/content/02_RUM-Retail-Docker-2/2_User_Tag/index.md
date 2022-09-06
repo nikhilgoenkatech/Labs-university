@@ -7,11 +7,9 @@ Dynatrace provides multiple avenues to define the user-tag with CSS selector bei
 1. Within your application page, select the string starting with Welcome on top-left of your screen as seen in the screenshot.
 
 1. Further, using right click select option "Inspect".
-<br>
 ![usertag1](../../../assets/images/User-tag-1.png)
 
 1. This would open Element tab in the developer tools, right-click on the element and select *Copy* option followed by *Copy selector*
-<br>
 ![usertag2](../../../assets/images/User-tag-2.png)
 
 1. Once you have identified the CSS selector , within your tenant navigate to application configuration page by following **Frontend > SampleBankApp application > Edit**
@@ -25,7 +23,6 @@ Dynatrace provides multiple avenues to define the user-tag with CSS selector bei
 1. This would help dynatrace to retrieve the value of configured CSS selector. However, the CSS element has Welcome string prefixed to the username, so, to slice only the username, we will use regex funcitonality and filter the "Welcome" string. To do so, enable "Apply cleanup rule" and define the regex as **Welcome ([^!]*+)**
 
 1. Lastly, click on "Add user tag rule"  and then on "Save changes"
-<br>
 ![usertag6](../../../assets/images/02-UserTag6.png)
 
 
