@@ -12,17 +12,18 @@ Further execute `sudo su` to become the root user and execute the commands with 
 ```
 $ cd /home/ubuntu/docker-compose-bankApp
 ```
-![step-1](../../../asset../../../assets/images/pre-step-1.png)
+
+![step-1](../../../assets/images/pre-step-1.png)
 
 * Run the following code to deploy your application:
 ```
 $ sudo docker-compose up &
 ```
-![step-2](../../../asset../../../assets/images/pre-step-2.png)
+![step-2](../../../assets/images/pre-step-2.png)
 
 ### Accessing the deployed application
 Open up your **web browser** and access the sample application with `AWS IP ADDRESS:3000`
-![Application URL](../../../asset../../../assets/images/application-access.png)
+![Application URL](../../../assets/images/application-access.png)
 
 Positive
 : If the IP address of your AWS instance has changed, modify the **Application Detection Rule** to accomodate the change in IP by navigating to **Settings > Web and mobile monitoring > Applications detection**
