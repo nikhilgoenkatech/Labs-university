@@ -3,10 +3,10 @@ In this excerise, first we will start the sample web application.
 
 ### Start the Application on your AWS Instance
 
-Use PuTTy (Windows), PowerShell (Windows) or Terminal (Mac), ssh into the instance using the following credentials:
-**Username**: `d1prumworkshop`
-**Password**:  `dynatrace`
-Further execute `sudo su` to become the root user and execute the commands with root priviledge.
+Use PuTTy (Windows), PowerShell (Windows) or Terminal (Mac), ssh into the instance using the following credentials:  
+Username: `d1prumworkshop` 
+Password:  `dynatrace`  
+Further execute `sudo su` to become the root user and execute the commands with root priviledge.  
 
 * Navigate to the docker-compose-bankApp folder using
 ```
