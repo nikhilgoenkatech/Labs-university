@@ -13,7 +13,7 @@ Let us leverage session-property that will help us identify one of the attribute
 1. Within your application, click on **Fund Transfer** and enter an arbitary amount say **120000**.
 1. Further click on **Go Back** to navigate to home page.
 1. Now, follow the steps below to identify the CSS selector.
-![Sess-pro](../../../asset../../../assets/images/Session-property.gif)
+![Sess-pro](../../../assets/images/Session-property.gif)
 
 Now with the CSS selector identified as `body > div.container-fluid > div > div > div > div.col-md-12 > table > tbody > tr > td:nth-child(4)`, proceed to Dynatrace tenant and follow the steps below
 1. Select "Application" from the navigation menu and select "SampleBankApp"
