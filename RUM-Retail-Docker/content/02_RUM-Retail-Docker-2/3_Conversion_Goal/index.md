@@ -17,7 +17,7 @@ To define a conversion goal, navigate to the application settings by clicking on
 1. Define the **Rule:** to be `Action name > contains > /member/withdraw`
 1. Click on the **Save** to save the defined conversion goal.
 
-![Conversion-Goal](../../../asset../../../assets/images/02-Goal.png)
+![Conversion-Goal](../../../assets/images/02-Goal.png)
 
 ### Measuring Conversion Goal
 
@@ -26,6 +26,6 @@ To define a conversion goal, navigate to the application settings by clicking on
 1. Selecting the **Goal**.
 1. Selecting the sepecific user session and navigating to the user actions, the defined user action can be easily identified either by applying filter or by the blue button
 
-![Conversion-Goal](../../../asset../../../assets/images/02-ConversionGoal1.png)
+![Conversion-Goal](../../../assets/images/02-ConversionGoal1.png)
 
 <!-- ------------------------ -->
