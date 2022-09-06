@@ -23,7 +23,6 @@ Dynatrace provides multiple avenues to define the user-tag with CSS selector bei
 1. This would help dynatrace to retrieve the value of configured CSS selector. However, the CSS element has Welcome string prefixed to the username, so, to slice only the username, we will use regex funcitonality and filter the "Welcome" string. To do so, enable "Apply cleanup rule" and define the regex as **Welcome ([^!]*+)**
 
 1. Lastly, click on "Add user tag rule"  and then on "Save changes"
-<br>
 ![usertag6](../../../assets/images/02-UserTag6.png
 
 
